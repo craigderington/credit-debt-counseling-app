@@ -33,11 +33,11 @@
 		
 		 <cfscript>
 			//set your app vars for the application          
-			application.dsn = "efiscal_progressive";
-			application.title = "Progressive Debt Relief v3";
-			application.developer = "eFiscal Networks, LLC.";
-			application.agencyname = "Progressive Debt Relief";
-			application.agencydba = "PDR";
+			application.dsn = "strapped_db";
+			application.title = "strapped";
+			application.developer = "Craig Derington, Inc.";
+			application.agencyname = "PayDay Advance Networks";
+			application.agencydba = "PayDay.Net";
 			application.bootver = "v 2.3.1";
 			application.softver = "v 1.0.0 Alpha";
 			application.root = "index.cfm?event=";
