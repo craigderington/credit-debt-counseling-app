@@ -1,6 +1,6 @@
 #Strapped
 
-### Introducing the most effective program for elimnating Pay Dat Advance debt.
+### Introducing the most effective program for eliminating Pay Day Advance debt.
 
 Our pay day advance solutions will knock your socks off.  
 
