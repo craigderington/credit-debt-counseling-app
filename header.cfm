@@ -4,7 +4,7 @@
 			<html lang="en">
 				<head>
 					<meta charset="utf-8">
-					<title>eFiscal Networks, LLC.  | Progressive Debt Relief | v3</title>			
+					<title>Strapped.  Pay Day Advance Solutions.</title>			
 					<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 					<meta name="apple-mobile-web-app-capable" content="yes">		
 					<link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
 						
 						<!--- include the sub-header based on the users system role --->
 						<cfif not structkeyexists( session, "selectedclientid" )>
-							<cfif isuserinrole( "efiscal" ) or isuserinrole( "execmanager" )>
+							<cfif isuserinrole( "admin" ) or isuserinrole( "execmanager" )>
 								<cfinclude template="sub-nav-header.cfm">				
 							<cfelseif isuserinrole( "counselor" ) or isuserinrole( "enrollment" )>					
 								<cfinclude template="sub-nav-header-cn.cfm">				
