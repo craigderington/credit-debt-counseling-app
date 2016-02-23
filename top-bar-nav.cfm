@@ -24,7 +24,7 @@
 							<div class="collapse navbar-collapse navbar-ex1-collapse">
 								<ul class="nav navbar-nav navbar-right">
 									
-									<cfif isuserinrole( "efiscal" )>
+									<cfif isuserinrole( "admin" )>
 										<li class="dropdown">
 										
 											<a href="javscript:;" class="dropdown-toggle" data-toggle="dropdown">
