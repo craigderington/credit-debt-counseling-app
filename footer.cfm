@@ -7,7 +7,7 @@
 			
 			
 			
-			
+			<cfoutput>
 			
 				<div class="footer" style="margin-top:150px;">
 						
@@ -16,11 +16,11 @@
 						<div class="row">
 							
 							<div id="footer-copyright" class="col-md-6">
-								&copy; 2015 eFiscal Networks, LLC.
+								&copy; #Year(now())# Strapped.  Pay Day Advance Solutions.
 							</div> <!-- /span6 -->
 							
 							<div id="footer-terms" class="col-md-6">
-								<i class="fa fa-check-square"></i> Progressive Debt Relief
+								<i class="fa fa-check-square"></i> Pay Day Advance Networks
 							</div> <!-- /.span6 -->
 							
 						</div> <!-- /row -->
@@ -28,7 +28,8 @@
 					</div> <!-- /container -->
 					
 				</div> <!-- /footer -->
-
+			
+			</cfoutput>
 
 
     
