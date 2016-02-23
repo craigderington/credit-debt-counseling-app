@@ -42,7 +42,7 @@
 								  <span class="icon-bar"></span>
 								  <span class="icon-bar"></span>
 								</button>
-								<a class="navbar-brand" href="./index.html">Progressive Debt Relief</a>
+								<a class="navbar-brand" href="./index.html">Strapped.  Pay Day Advance Solutions.</a>
 							</div>
 
 							<!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,7 +51,7 @@
 									<li class="">												
 										<a href="https://efiscal.net/" target="_blank">
 											<i class="fa fa-cog"></i>&nbsp;&nbsp; 
-											Powered by eFiscal Networks
+											Powered by Strapped for Cash
 										</a>									
 									</li>
 								</ul>
@@ -65,14 +65,14 @@
 					
 						<cfif isdefined( "REQUEST.badlogin" )>
 							<div class="alert alert-block alert-error fade in">
-								<button type="button" class="close" data-dismiss="alert">×</button>
+								<button type="button" class="close" data-dismiss="alert">Ã—</button>
 									<h4 class="alert-heading"><i class="icon-warning-sign"></i> Login Failed!</h4>
 										<p>Sorry, your login credentials have failed.  Either your username and password was entered incorrectly.  Please try again...</p>
 										
 							</div>					
 						<cfelseif isdefined( "url.logout" ) and url.logout eq 1>
 							<div class="alert alert-block alert-info fade in">
-								<button type="button" class="close" data-dismiss="alert">×</button>
+								<button type="button" class="close" data-dismiss="alert">Ã—</button>
 									<h4 class="alert-heading"><i class="icon-check"></i> THANK YOU!</h4>
 										<p>Your logout request was processed successfully.  To continue, please login again or close this window.</p>
 										
